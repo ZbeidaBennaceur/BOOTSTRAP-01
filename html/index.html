@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAKURA NO HANA</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <!--navbar avec bootstrap-->
+    <div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            >SAKURA <br />
+            NO <br />
+            HANA</a
+          >
+          <div class="boutons">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#hero"
+                  >ACCUEIL</a
+                >
+                <a class="nav-link" href="#">MENU</a>
+                <a class="nav-link" href="#">A PROPOS</a>
+                <a class="nav-link" aria-disabled="true">CONTACT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="contenu">
+    <!--Partie Hero-->
+    <div class="hero" id="hero">
+      <div class="message">
+        <h6>A Message from the Chef</h6>
+        <p>
+          Welcome to our Asian Fusion restaurant! Here, we blend traditional
+          Japanese flavors with influences from across Asia, creating unique and
+          exciting dishes. Our goal is to provide a memorable dining experience
+          with fresh, high-quality ingredients and a passion for innovation.
+          <br />Thank you for joining us!
+        </p>
+        <h6>Chef Hiroshi Takahashi</h6>
+      </div>
+      <img
+        src="D:\GMC_2\WORKSHOP\03_BOOTSTRAP\html\assets\markus-winkler-zew4BP2GWVA-unsplash.jpg"
+        width="100%"
+        alt="photo du restaurant"
+      />
+      <div class="virtualtour">
+        <button
+          type="button"
+          class="btn active"
+          data-bs-toggle="button"
+          aria-pressed="true"
+        >
+          VIRTUAL TOUR
+        </button>
+      </div>
+    </div>
+    <!--menu-->
+    <div class="menu">
+      <h3>OUR SIGNATURE DISHES</h3>
+      <div class="row">
+        <div class="col">
+          <h4>Sushis</h4>
+          <img
+            src="D:\GMC_2\WORKSHOP\03_BOOTSTRAP\html\assets\flyd-kwgCZZrhcp0-unsplash.jpg"
+            alt="sushis"
+            width="100%"
+          />
+          <p class="description">Our sushi is crafted with care, using perfectly seasoned vinegared rice and high-quality fresh fish. Each piece is a true delight, combining the subtle sweetness of the rice with the freshness of the fish for an authentic tasting experience.</p>
+        <h5>PRICE: 25 TND</h5>
+        </div>
+        <div class="col">
+            <h4>Tempura</h4>
+          <img
+            src="D:\GMC_2\WORKSHOP\03_BOOTSTRAP\html\assets\yosuke-ota-yVKwbc0LKyI-unsplash.jpg"
+            alt="Tempura"
+            width="100%"
+          />
+          <p class="description">Our tempura features lightly battered and crispy-fried seafood and vegetables, providing a perfect balance of texture and flavor. The delicate crunch of the batter complements the tender ingredients, creating a satisfying and flavorful dish.</p>
+          <h5>PRICE: 45 TND</h5>
+        </div>
+        <div class="col">
+            <h4>Mochis</h4>
+          <img
+            src="D:\GMC_2\WORKSHOP\03_BOOTSTRAP\html\assets\minh-anh-nguyen-ndnNP_luXvU-unsplash.jpg"
+            alt="Mochis"
+            width="100%"
+          />
+          <p class="description">Mochi is a sweet treat made from glutinous rice, with a soft and chewy texture. They are filled with various flavors such as red bean paste or ice cream, offering a refreshing and delicious Japanese dessert.
+            Each dish is a tribute to authentic Japanese culinary traditions, prepared with fresh ingredients and expert craftsmanship.</p>
+          <h5>PRICE: 15 TND</h5>
+        </div>
+        </div>
+<!--présentation du restaurant-->
+        <div class="container">
+          
+            <div class="row">
+              <div class="col">
+                <img src=D:\GMC_2\WORKSHOP\03_BOOTSTRAP\html\assets\daniele-salutari-DOqSpSrFglM-unsplash.jpg width="100%">
+              </div>
+              <div class="col">
+                <h3>OUR PHILOSOPHY</h3>
+                <p>At Sakura no Hana, we welcome you like family. Born from a deep-rooted passion for traditional Japanese cuisine, our restaurant is not just a place to eat, but a space where the warmth of family and the comfort of home meet. The recipes we serve have been passed down through generations, bringing with them a sense of history and love for the art of Japanese cooking. Our story is one of tradition, care, and shared memories. Growing up in a family that cherished authentic flavors and the joy of coming together around a meal, we’ve dedicated ourselves to offering you the same sense of comfort and familiarity. From the first bite of our perfectly crafted sushi to the rich flavors of our ramen, each dish is prepared with the utmost care and the freshest ingredients, just as we’ve always done at home.
+                    At Sakura no Hana, we want you to feel like you're dining with us at our family table, where every meal is an expression of love, tradition, and the joy of sharing good food with those you care about.
+                    Join us and experience the taste of home, where every dish is made with love, and every visit feels like a warm embrace.</p>
+              </div>
+            </div>
+        </div>
+<!--formulaire-->
+            <form class="formulaire">
+              <h3>CONTACT US</h3>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name & Surname</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-primary" >Submit</button>
+              </form>
+<footer>
+    <p>Follow us on social media</p>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-x-twitter"></i>
+    <p>&copy; All rigths reserved, Sakura No Hana, 2024</p>
+</footer>
+</div>
+
+<script src="https://kit.fontawesome.com/fee1b3fdf7.js" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
