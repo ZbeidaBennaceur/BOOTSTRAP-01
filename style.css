@@ -1,17 +1,19 @@
-
+/*relatif au body*/
 body {
   margin: 10px;
 }
+/*style nom du restaurant*/
 .navbar-brand {
   color: red;
   text-align: right;
 }
-
+/*style du navbar*/
 .navbar {
   background-color: rgb(237, 237, 237);
   margin-bottom: 1%;
 }
 
+/*message du chef*/
 .message {
   text-align: justify;
   font-weight: lighter;
@@ -19,31 +21,31 @@ body {
   max-width: 29%;
   margin-top: 0%;
 }
-
+/*pour tous les h3, afin d'avoir une uniformité, si on ajoute un h3 sera automatiquement du meme styke*/
 h3 {
   font-weight: lighter;
   text-align: center;
 }
+/*conteneur du bouton virtualtour*/
 .imagebouton{
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+/*bouton virtual tout*/
 .virtualtour {
   position: absolute;
 }
+/*conteneur comportants les trois plats phares*/
+.menu {margin-top: 3%;}
 
-.descriptionmochis {
-  margin-left: 60%;
-  max-width: 30%;
-}
+/*description des plats, le texte*/
 .description {
   color: grey;
   height: 120px;
 }
-
+/*description du restaurant, texte et photo*/
 .descriptionrestaurant {
 width: 1000px;
   margin-top: 5%;
@@ -53,7 +55,7 @@ width: 1000px;
     color: grey;
   }
 }
-
+/*bouton submit du formulaire*/
 .btn {
   font-size:20px !important;
   background-color: rgb(255, 255, 255) !important;
@@ -68,11 +70,10 @@ width: 1000px;
   color: white !important;
   border: 0px !important;
 }
+/*formulaire*/
 .formulaire {
   margin: 20px 500px 20px 500px;
 }
-
-.menu {margin-top: 3%;}
 
 footer {
   background-color: rgb(236, 236, 236);
@@ -81,7 +82,7 @@ footer {
   font-size:15px;
   text-align: right ;
 }
-
+/*logos reseaux sociaux du footer*/
 footer >.fa-brands {
   margin-left: 10px;
   margin-right: 10px;
